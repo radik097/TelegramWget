@@ -1,0 +1,22 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku create --buildpack https://github.com/heroku/heroku-buildpack-python.git"
+    }
+  ],
+  "description": "It bot in time not god work",
+  "env": {
+    "": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "TelegramWget",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
